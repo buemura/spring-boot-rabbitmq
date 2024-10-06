@@ -4,12 +4,14 @@ import com.webhooky.enums.PaymentMethod;
 import com.webhooky.enums.PaymentStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
+import lombok.Setter;
 
 import java.util.UUID;
 
 @Entity
 @Table(name = "payments")
 @Getter
+@Setter
 public class Payment {
     @Id
     String id;
