@@ -37,6 +37,7 @@ public class Payment {
         this.paymentStatus = PaymentStatus.PROCESSING;
     }
 
-    public Payment() {}
+    public Payment() {
+    }
 }
 

@@ -1,4 +1,4 @@
-package com.webhooky.dtos;
+package com.webhooky.controllers.dtos;
 
 import com.webhooky.enums.PaymentMethod;
 

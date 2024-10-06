@@ -1,9 +1,7 @@
 package com.webhooky.entities;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 import java.util.UUID;
 
@@ -33,5 +31,6 @@ public class Order {
         this.amount = amount;
     }
 
-    public Order() {}
+    public Order() {
+    }
 }
