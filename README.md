@@ -1,3 +1,3 @@
-# Webhooky
+# Spring Boot RabbitMQ
 
-A simple webhook project
+A simples order and payment processing API
